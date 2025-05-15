@@ -1,41 +1,32 @@
-OST to PST Backup and Conversion Tool
-Overview
-The OST to PST Tool is a reliable utility built to backup, repair, and convert Microsoft Outlook OST files. Whether you're dealing with corrupt OST files or simply need to migrate/export OST data into various formats, this tool provides a simple and powerful interface.
+# OST to PST Backup and Conversion Tool
 
-Primary Use Cases:
+## Overview
 
-Recover data from corrupted or inaccessible OST files.
+The OST to PST Tool is a reliable utility built to **backup**, **repair**, and **convert Microsoft Outlook OST files**. Whether you're dealing with corrupt OST files or simply need to migrate/export OST data into various formats, this tool provides a simple and powerful interface.
 
-Backup OST contents for safe storage or archival.
+### Primary Use Cases
 
-Migrate OST files to multiple document and mail formats including Office365.
+- Recover data from corrupted or inaccessible OST files
+- Backup OST contents for safe storage or archival
+- Migrate OST files to multiple document and mail formats including Office365
 
-Features
-✅ Convert OST to PST (Outlook Data File)
+## Features
 
-✅ Export OST contents to:
+- Convert OST to PST (Outlook Data File)
+- Export OST contents to:
+  - DOCX – Structured document files
+  - PDF – Read-only format for printing/sharing
+  - EML – RFC 822 formatted email files (used by many mail clients)
+  - MSG – Outlook message format
+  - RTF – Rich Text Format
+  - Office 365 – Cloud email migration
+- Support for:
+  - Corrupted OST files – Handles partial damage and inaccessible folders
+  - Large OST files – Designed to handle GBs of data
 
-DOCX – Structured document files
+## Architecture
 
-PDF – Read-only format for printing/sharing
-
-EML – RFC 822 formatted email files (used by many mail clients)
-
-MSG – Outlook message format
-
-RTF – Rich Text Format
-
-Office 365 – Cloud email migration
-
-✅ Support for:
-
-Corrupted OST files – Handles partial damage and inaccessible folders
-
-Large OST files – Designed to handle GBs of data
-
-🧩 Architecture
-Language: Java
-
-Framework: Spring Boot (if applicable — adjust if not used)
-
-Libraries:
+- **Language**: Java
+- **Framework**: Spring Boot *(if applicable)*
+- **Libraries Used**:
+  - Aspose.Email for Java – Used for reading and converting OST files

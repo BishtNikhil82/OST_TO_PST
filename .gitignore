@@ -1,0 +1,51 @@
+# Maven build output
+/target/
+
+# Gradle build output
+/build/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea/libraries/
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+
+# Eclipse
+.classpath
+.project
+.settings/
+.apt_generated
+.factorypath
+.springBeans
+.sts4-cache
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Logs and temp files
+*.log
+
+# Maven Wrapper
+!.mvn/wrapper/maven-wrapper.jar
+
+# Optional: Ignore generated .jar files
+*.jar
+*.war
+*.ear
